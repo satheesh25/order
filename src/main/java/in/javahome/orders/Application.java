@@ -14,7 +14,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "<h1>Welcome to Orders App - Deployed in docker container</h1>";
+		return "<h1>Welcome to Orders App - Deployed in docker container at 5 PM</h1>";
 	}
 
 	@RequestMapping(path = "order/{id}", method = RequestMethod.GET)
